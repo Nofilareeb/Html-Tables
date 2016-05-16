@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Security form</title>
+</head>
+<body background="s.jpg">
+<form>
+	<p align="center">
+First name :<br>
+<input type="text" name="First name" value="Enter your first name..."><br>
+Last name:<br>
+<input type="text" name="Last name" value="Enter your last name..."><br>
+Email ID:<br>
+<input type="text" name="Email ID:" value=" "/><br>
+
+Passward:<br>
+<input type="text" name="Passward:" value=" "/></p><br>
+<p align="center"><ins>Which is your Favourite Footballers</ins>
+	<br>
+<input type="checkbox" name="" value="LIONEL MESSI" >LIONEL MESSI
+
+<input type="checkbox" name="" value="CRISTIANO RONALDO" >CRISTIANO RONALDO
+<input type="checkbox" name="" value="LUIS SUAREZ" >LUIS SUAREZ
+<input type="checkbox" name="" value="NEYMAR Jr" >NEYMAR Jr
+<input type="checkbox" name="" value="KARIM BENZEMA" >KARIM BENZEMA</p>
+
+	<br>
+	<br>
+	
+	<p><ins>Select your Favourite car</ins></p>
+	
+	<select name="Car">
+		<option value="Lamborghini">Lamborghini</option>
+		<option value="Farrari">Farrari</option>
+		<option value="Swift">Swift</option>
+	</select>
+</p>
+<p><ins>select your gender:</ins></p>
+<input type="radio" name="gender" value="male"checked>male<br>
+<input type="radio" name="gender" value="Female">female<br>
+<input type="radio" name="gender" value="other">other<br>
+<input type="submit" value="submit">
+<p><ins>click on the submit button</p></ins>
+<p><ins>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".
+
+Notice that the value of the "First name" field will not be submitted, because the input element does not have a name attribute.</ins></p>
+
+<br>
+<p align="left"><ins>Click on this Choose file button</ins> <br>
+	<br>
+<input type="file" value="file"></p>
+<br>
+<p align="center">
+	<textarea name="commits" cols="20" rows="4">Enter your comments....</textarea>
+	<br>
+	<input type="submit" value="submit"></p>
+
+</form>
+
+
+
+</body>
+</html>
